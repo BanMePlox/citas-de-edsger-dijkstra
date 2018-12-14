@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+  background-color: hsl(154, 41%, 40%);
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  text-shadow: black 5px 5px;
+  text-transform: uppercase;
+}
+p.uno {
+  border: black 10px solid;
+  border-radius: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  background-color: white;
+  text-align: justify;
+}
+
+p.dos {
+  border: hsl(17, 81%, 31%) 20px solid;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: 50%;
+  padding: 10px;
+  background-color: hsl(17, 90%, 15%);
+  color: white;
+  text-align: justify;
+}
+
+p.tres {
+  border: hsl(34, 94%, 21%) 15px solid;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 50%;
+  padding: 5px;
+  background-color: hsl(34, 65%, 43%);
+  color: white;
+  text-align: justify;
+}
+
+p.cuatro {
+  border: hsl(207, 66%, 47%) 5px dashed;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  background-color: hsl(208, 84%, 13%);
+  color: white;
+  text-align: justify;
+}
